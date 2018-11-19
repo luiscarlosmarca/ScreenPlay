@@ -8,15 +8,10 @@ Feature: Register user demo
   Scenario: register user full
     Given that Carlos want into to the web Automation Demo Site
     When the does the register in the page
-    Then  the verify that view the screen with text Double Click on Edit Icon to EDIT the Table Row
-    
-  @tag2
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
+			|fullname|lastname|address|email|phone|gender|hobbies|languages|skills|country|dept|year|month|day|password|password_confirm|
+			|luiscarlos|marin campos|cr 79 n 32- 2 |lucmarin@bancolombia.com|3022342343|male|Movies|English|CSS|China|Japan|1994|May|11|secret|secret|
+ Then  the verify that view the screen with text Double Click on Edit Icon to EDIT the Table Row
+ 
+ 
+#Data códigos de producto
 
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |

@@ -1,1 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Register user demo" skipped="3" tests="3" time="6.12" timestamp="2018-09-06 03:51:29"><testcase name="register user full"><skipped/></testcase><testcase name="Title of your scenario outline"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Register user demo" skipped="0" tests="1" time="189.8" timestamp="2018-11-14 11:01:00"><testcase name="register user full"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.proyectobase.screenplay.stepdefinitions.RegisterUserStepDefinition.theDoesTheRegisterInThePage(RegisterUserStepDefinition.java:38)&#13;
+✽.the does the register in the page(src/test/resources/features/AutomationDemo.feature:10)&#13;
+</system-err></testcase></testsuite>
